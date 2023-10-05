@@ -1,0 +1,99 @@
+*{
+    text-decoration: none;
+    text-align:start;
+}
+body{
+    padding:0;
+    margin:0;
+    display: flexbox;
+    background-color: black;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+  background-color: #ff0000; /* Vermelho */
+  color: #ffffff; /* Branco */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+header a{
+    display: block;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff; /* Branco */
+    text-decoration: none;
+  }
+
+.container  h2{
+    display: flex;
+    position: relative;
+    margin: 75px;
+}
+
+
+.container img{
+    width: 20%;
+    height: 20%;
+}
+
+.container .news{
+    width: 150%;
+    overflow: hidden;
+    
+}
+.container .news p{
+    width: 400px;
+    position: relative;
+}
+
+
+.noticia{
+    display: flexbox;
+    padding: 0 90px;
+    margin: 0 90px;
+    margin-bottom: 90px;
+}
+
+.more{
+    display: none;
+}
+
+.noticia:hover .more{
+    display: inline;
+}
+
+
+.container p{
+    padding: 15px;
+    font-size: 20px;
+    justify-content:flex-start;
+}
+
+@media (max-width: 600px){
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
